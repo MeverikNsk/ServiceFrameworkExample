@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\modules\Vsk.VooDoo.Adapters\Vsk.VooDoo.Adapters.Application\Vsk.VooDoo.Adapters.Application.csproj" />
+    <ProjectReference Include="..\..\modules\Vsk.VooDoo.Cache\Vsk.VooDoo.Cache.Application\Vsk.VooDoo.Cache.Application.csproj" />
+    <ProjectReference Include="..\..\modules\Vsk.VooDoo.DvVol\Vsk.VooDoo.DvVol.Application\Vsk.VooDoo.DvVol.Application.csproj" />
+    <ProjectReference Include="..\..\modules\Vsk.VooDoo.Edo\Vsk.VooDoo.Edo.Application\Vsk.VooDoo.Edo.Application.csproj" />
+    <ProjectReference Include="..\Vsk.VooDoo.WebHost\Vsk.VooDoo.WebHost.csproj" />
+  </ItemGroup>
+
+</Project>

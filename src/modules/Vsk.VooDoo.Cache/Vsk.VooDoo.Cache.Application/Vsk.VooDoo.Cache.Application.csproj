@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vsk.VooDoo.Cache.API\Vsk.VooDoo.Cache.API.csproj" />
+    <ProjectReference Include="..\Vsk.VooDoo.Cache.Domain\Vsk.VooDoo.Cache.Domain.csproj" />
+    <ProjectReference Include="..\Vsk.VooDoo.Cache.Infrastructure\Vsk.VooDoo.Cache.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
