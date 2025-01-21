@@ -6,15 +6,16 @@
 
     internal class HelloWorlDomainService : IHelloWorlDomainService
     {
-        private readonly IAdaptersRepository _adaptersRepository;
-        public HelloWorlDomainService(IAdaptersRepository adaptersRepository)
+        private readonly IUserRepository _userRepository;
+        public HelloWorlDomainService(IUserRepository userRepository)
         {
-            _adaptersRepository = adaptersRepository;
+            _userRepository = userRepository;
         }
 
         public async Task<HelloWorldResponse> HelloWorldAsync(HelloWorldRequest request)
         {
-            var user = _adaptersRepository.Users.Where(c => c.Id == 2).Single();
+
+            var users = _userRepository.GetAll().ToList();
 
             return await Task.FromResult(new HelloWorldResponse { HelloName = $"Hello, {request.Name}" });
         }

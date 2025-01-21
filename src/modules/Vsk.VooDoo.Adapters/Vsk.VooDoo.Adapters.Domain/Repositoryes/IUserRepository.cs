@@ -1,9 +1,10 @@
 ﻿namespace Vsk.VooDoo.Adapters.Domain.Repositoryes
 {
+    using System.Linq;
     using Vsk.VooDoo.Adapters.Domain.Models;
 
-    public interface IAdaptersRepository
+    public interface IUserRepository : IRepository<User>
     {
-        public IQueryable<User> Users { get; }
+        IQueryable<User> GetAll();
     }
 }

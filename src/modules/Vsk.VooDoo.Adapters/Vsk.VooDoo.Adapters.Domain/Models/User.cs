@@ -1,11 +1,13 @@
 ﻿namespace Vsk.VooDoo.Adapters.Domain.Models
 {
-    public class User
-    {
-        public long Id { get; set; }
+    using Vsk.VooDoo.Adapters.Domain.Repositoryes;
 
+    public class User : Entity, IAggregateRoot
+    {
         public string Name { get; set; }
 
         public string Email { get; set; }
+
+        public IList<Role> Roles { get; set; }
     }
 }
