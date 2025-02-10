@@ -8,6 +8,6 @@
 
         public string Email { get; set; }
 
-        public IList<Role> Roles { get; set; }
+        public IEnumerable<Role> Roles { get; set; }
     }
 }

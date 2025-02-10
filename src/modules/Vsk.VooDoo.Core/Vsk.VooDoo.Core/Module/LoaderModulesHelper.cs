@@ -1,6 +1,5 @@
 ﻿namespace Vsk.VooDoo.Core.Module
 {
-    using AutoMapper;
     using Microsoft.Extensions.DependencyInjection;
     using System.Reflection;
 
@@ -8,6 +7,11 @@
     {
         public static void LoadAndInitServiceModules(IServiceCollection services, IList<string> dllPrefixes)
         {
+            // Init core
+            VskVooDooCoreModule.Init(services);
+            services.AddAutoMapper(VskVooDooCoreModule.RegisterMaps);
+
+            // Init modules
             string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
             if (dllPrefixes?.Any() == true)
@@ -30,10 +34,7 @@
 
                         if (assemblyDefinedModule is IAutoMapperConfiguration instanceAutomapper)
                         {
-                            services.AddAutoMapper(delegate (IMapperConfigurationExpression config)
-                            {
-                                instanceAutomapper.RegisterMaps(config);
-                            });
+                            services.AddAutoMapper(instanceAutomapper.RegisterMaps);
                         }
                     }
                 }

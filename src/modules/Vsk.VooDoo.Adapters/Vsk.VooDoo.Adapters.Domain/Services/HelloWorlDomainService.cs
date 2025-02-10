@@ -14,10 +14,10 @@
 
         public async Task<HelloWorldResponse> HelloWorldAsync(HelloWorldRequest request)
         {
+            //var usersAll = await _userRepository.GetAllAsync(orderByKeySelector: k => k.Name);
+            //var users = await _userRepository.GetAllAsync(u => u.Roles.Any(r => r.Id == 2));            
 
-            var users = _userRepository.GetAll().ToList();
-
-            return await Task.FromResult(new HelloWorldResponse { HelloName = $"Hello, {request.Name}" });
+            return new HelloWorldResponse { HelloName = $"Hello, {request.Name}" };
         }
     }
 }

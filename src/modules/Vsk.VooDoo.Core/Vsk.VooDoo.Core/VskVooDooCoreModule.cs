@@ -4,16 +4,15 @@
     using global::Vsk.VooDoo.Core.Routing;
     using Microsoft.AspNetCore.Mvc.ApplicationModels;
     using Microsoft.Extensions.DependencyInjection;
-    using Vsk.VooDoo.Core.Module;
 
-    public class VskVooDooCoreModule : AssemblyDefinedModule, IAutoMapperConfiguration
+    public static class VskVooDooCoreModule
     {
-        public override void Init(IServiceCollection services)
+        public static void Init(IServiceCollection services)
         {
             services.AddTransient<IApplicationModelProvider, VooDooApplicationModelProvider>();
         }
 
-        public void RegisterMaps(IProfileExpression cfgMap)
+        public static void RegisterMaps(IProfileExpression cfgMap)
         {
             // Nothing
         }

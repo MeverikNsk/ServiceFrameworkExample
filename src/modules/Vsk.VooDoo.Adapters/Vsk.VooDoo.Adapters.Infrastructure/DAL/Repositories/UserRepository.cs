@@ -2,7 +2,9 @@
 {
     using Microsoft.EntityFrameworkCore;
     using System;
-    using System.Linq;
+    using System.Collections.Generic;
+    using System.Linq.Expressions;
+    using System.Threading.Tasks;
     using Vsk.VooDoo.Adapters.Domain.Models;
     using Vsk.VooDoo.Adapters.Domain.Repositoryes;
     using Vsk.VooDoo.Adapters.Infrastructure.DAL.DataBase;
@@ -24,9 +26,26 @@
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public IQueryable<User> GetAll()
+        public async Task<IEnumerable<User>> GetAllAsync(
+            Expression<Func<User, bool>>? wherePredicate = null, 
+            Expression<Func<User, User>>? orderByKeySelector = null)
         {
-            return _context.Users.Include(b => b.Roles);                
+            var query = _context
+                .Users
+                .Include(b => b.Roles)
+                .AsQueryable();
+
+            if (wherePredicate != null)
+            {
+                query = query.Where(wherePredicate);
+            };
+
+            if (orderByKeySelector != null)
+            {
+                query = query.OrderBy(orderByKeySelector);
+            };
+
+            return await query.ToListAsync();
         }
     }
 }
