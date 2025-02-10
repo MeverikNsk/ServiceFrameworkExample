@@ -13,51 +13,53 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vsk.VooDoo.DvVol", "Vsk.Voo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vsk.VooDoo.Edo", "Vsk.VooDoo.Edo", "{331EEFAE-CF4E-40B8-8BAB-B89B6C926B81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.Cache.API", "src\modules\Vsk.VooDoo.Cache\Vsk.VooDoo.Cache.API\Vsk.VooDoo.Cache.API.csproj", "{D55A56D2-6443-4CAE-B976-1CEF57EEAFED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.Cache.API", "src\modules\Vsk.VooDoo.Cache\Vsk.VooDoo.Cache.API\Vsk.VooDoo.Cache.API.csproj", "{D55A56D2-6443-4CAE-B976-1CEF57EEAFED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.DvVol.API", "src\modules\Vsk.VooDoo.DvVol\Vsk.VooDoo.DvVol.API\Vsk.VooDoo.DvVol.API.csproj", "{72E9DA86-8F17-4467-B648-CB3C1D87AA6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.DvVol.API", "src\modules\Vsk.VooDoo.DvVol\Vsk.VooDoo.DvVol.API\Vsk.VooDoo.DvVol.API.csproj", "{72E9DA86-8F17-4467-B648-CB3C1D87AA6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.Edo.API", "src\modules\Vsk.VooDoo.Edo\Vsk.VooDoo.Edo.API\Vsk.VooDoo.Edo.API.csproj", "{A19A6564-AA6E-4D50-BE46-5A3F81BF5CE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.Edo.API", "src\modules\Vsk.VooDoo.Edo\Vsk.VooDoo.Edo.API\Vsk.VooDoo.Edo.API.csproj", "{A19A6564-AA6E-4D50-BE46-5A3F81BF5CE8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vsk.VooDoo.Adapters", "Vsk.VooDoo.Adapters", "{7745B3B9-4BF6-4A72-8AB0-85A6558F8E8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.Adapters.API", "src\modules\Vsk.VooDoo.Adapters\Vsk.VooDoo.Adapters.API\Vsk.VooDoo.Adapters.API.csproj", "{DBDC7530-8E81-464B-9974-DCAF222B6968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.Adapters.API", "src\modules\Vsk.VooDoo.Adapters\Vsk.VooDoo.Adapters.API\Vsk.VooDoo.Adapters.API.csproj", "{DBDC7530-8E81-464B-9974-DCAF222B6968}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7CD2E18F-7CF7-4601-8CC4-24858D3D565E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.Core", "src\modules\Vsk.VooDoo.Core\Vsk.VooDoo.Core\Vsk.VooDoo.Core.csproj", "{1DCD3589-2BFE-4C64-819C-6E466DBB4AF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.Core", "src\modules\Vsk.VooDoo.Core\Vsk.VooDoo.Core\Vsk.VooDoo.Core.csproj", "{1DCD3589-2BFE-4C64-819C-6E466DBB4AF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.Adapters.Domain", "src\modules\Vsk.VooDoo.Adapters\Vsk.VooDoo.Adapters.Domain\Vsk.VooDoo.Adapters.Domain.csproj", "{2EC1D3BA-CC9C-4C9F-8DF3-09DD7175D7FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.Adapters.Domain", "src\modules\Vsk.VooDoo.Adapters\Vsk.VooDoo.Adapters.Domain\Vsk.VooDoo.Adapters.Domain.csproj", "{2EC1D3BA-CC9C-4C9F-8DF3-09DD7175D7FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.Adapters.Infrastructure", "src\modules\Vsk.VooDoo.Adapters\Vsk.VooDoo.Adapters.Infrastructure\Vsk.VooDoo.Adapters.Infrastructure.csproj", "{BB497D24-2354-46CB-94BF-C136A913159F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.Adapters.Infrastructure", "src\modules\Vsk.VooDoo.Adapters\Vsk.VooDoo.Adapters.Infrastructure\Vsk.VooDoo.Adapters.Infrastructure.csproj", "{BB497D24-2354-46CB-94BF-C136A913159F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.Adapters.Application", "src\modules\Vsk.VooDoo.Adapters\Vsk.VooDoo.Adapters.Application\Vsk.VooDoo.Adapters.Application.csproj", "{3971002B-22C1-4199-8552-14AD26788CE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.Adapters.Application", "src\modules\Vsk.VooDoo.Adapters\Vsk.VooDoo.Adapters.Application\Vsk.VooDoo.Adapters.Application.csproj", "{3971002B-22C1-4199-8552-14AD26788CE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.Cache.Application", "src\modules\Vsk.VooDoo.Cache\Vsk.VooDoo.Cache.Application\Vsk.VooDoo.Cache.Application.csproj", "{306A28C4-9FD5-4725-BEC2-2AF2923D00B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.Cache.Application", "src\modules\Vsk.VooDoo.Cache\Vsk.VooDoo.Cache.Application\Vsk.VooDoo.Cache.Application.csproj", "{306A28C4-9FD5-4725-BEC2-2AF2923D00B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.Cache.Domain", "src\modules\Vsk.VooDoo.Cache\Vsk.VooDoo.Cache.Domain\Vsk.VooDoo.Cache.Domain.csproj", "{A6131CE2-4F8C-4F37-9214-B33E7215187A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.Cache.Domain", "src\modules\Vsk.VooDoo.Cache\Vsk.VooDoo.Cache.Domain\Vsk.VooDoo.Cache.Domain.csproj", "{A6131CE2-4F8C-4F37-9214-B33E7215187A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.Cache.Infrastructure", "src\modules\Vsk.VooDoo.Cache\Vsk.VooDoo.Cache.Infrastructure\Vsk.VooDoo.Cache.Infrastructure.csproj", "{F01558FE-23A0-40CC-9EF6-833C6CC54C27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.Cache.Infrastructure", "src\modules\Vsk.VooDoo.Cache\Vsk.VooDoo.Cache.Infrastructure\Vsk.VooDoo.Cache.Infrastructure.csproj", "{F01558FE-23A0-40CC-9EF6-833C6CC54C27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.DvVol.Application", "src\modules\Vsk.VooDoo.DvVol\Vsk.VooDoo.DvVol.Application\Vsk.VooDoo.DvVol.Application.csproj", "{27D4DDAD-3876-4D72-AA17-AB2AAB391CD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.DvVol.Application", "src\modules\Vsk.VooDoo.DvVol\Vsk.VooDoo.DvVol.Application\Vsk.VooDoo.DvVol.Application.csproj", "{27D4DDAD-3876-4D72-AA17-AB2AAB391CD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.DvVol.Domain", "src\modules\Vsk.VooDoo.DvVol\Vsk.VooDoo.DvVol.Domain\Vsk.VooDoo.DvVol.Domain.csproj", "{9B9282B5-C534-4D9A-B8D2-D1BC3F1C0D88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.DvVol.Domain", "src\modules\Vsk.VooDoo.DvVol\Vsk.VooDoo.DvVol.Domain\Vsk.VooDoo.DvVol.Domain.csproj", "{9B9282B5-C534-4D9A-B8D2-D1BC3F1C0D88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.DvVol.Infrastructure", "src\modules\Vsk.VooDoo.DvVol\Vsk.VooDoo.DvVol.Infrastructure\Vsk.VooDoo.DvVol.Infrastructure.csproj", "{010433E8-D765-4F3A-A37C-4235B2941C04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.DvVol.Infrastructure", "src\modules\Vsk.VooDoo.DvVol\Vsk.VooDoo.DvVol.Infrastructure\Vsk.VooDoo.DvVol.Infrastructure.csproj", "{010433E8-D765-4F3A-A37C-4235B2941C04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.Edo.Application", "src\modules\Vsk.VooDoo.Edo\Vsk.VooDoo.Edo.Application\Vsk.VooDoo.Edo.Application.csproj", "{7BD11AC0-F05A-4B0B-BE02-CDC830F404E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.Edo.Application", "src\modules\Vsk.VooDoo.Edo\Vsk.VooDoo.Edo.Application\Vsk.VooDoo.Edo.Application.csproj", "{7BD11AC0-F05A-4B0B-BE02-CDC830F404E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.Edo.Infrastructure", "src\modules\Vsk.VooDoo.Edo\Vsk.VooDoo.Edo.Infrastructure\Vsk.VooDoo.Edo.Infrastructure.csproj", "{9C8ADA8B-4566-4975-BA53-BE809E714672}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.Edo.Infrastructure", "src\modules\Vsk.VooDoo.Edo\Vsk.VooDoo.Edo.Infrastructure\Vsk.VooDoo.Edo.Infrastructure.csproj", "{9C8ADA8B-4566-4975-BA53-BE809E714672}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.Edo.Domain", "src\modules\Vsk.VooDoo.Edo\Vsk.VooDoo.Edo.Domain\Vsk.VooDoo.Edo.Domain.csproj", "{D379D504-04BC-4928-85CE-E2BEB229F365}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.Edo.Domain", "src\modules\Vsk.VooDoo.Edo\Vsk.VooDoo.Edo.Domain\Vsk.VooDoo.Edo.Domain.csproj", "{D379D504-04BC-4928-85CE-E2BEB229F365}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.WebHost.All", "src\hosts\Vsk.VooDoo.WebHost.All\Vsk.VooDoo.WebHost.All.csproj", "{1145A20C-0E93-44D1-B734-E7744428AFF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.WebHost.All", "src\hosts\Vsk.VooDoo.WebHost.All\Vsk.VooDoo.WebHost.All.csproj", "{1145A20C-0E93-44D1-B734-E7744428AFF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.WebHost.Edo", "src\hosts\Vsk.VooDoo.WebHost.Edo\Vsk.VooDoo.WebHost.Edo.csproj", "{5197A20B-2551-4FDA-B8A0-2F0CAD7D5437}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.WebHost.Edo", "src\hosts\Vsk.VooDoo.WebHost.Edo\Vsk.VooDoo.WebHost.Edo.csproj", "{5197A20B-2551-4FDA-B8A0-2F0CAD7D5437}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.WebHost.WithoutEdo", "src\hosts\Vsk.VooDoo.WebHost.WithoutEdo\Vsk.VooDoo.WebHost.WithoutEdo.csproj", "{6A56F561-039F-42F1-B641-540484D26AAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.WebHost.WithoutEdo", "src\hosts\Vsk.VooDoo.WebHost.WithoutEdo\Vsk.VooDoo.WebHost.WithoutEdo.csproj", "{6A56F561-039F-42F1-B641-540484D26AAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.WebHost", "src\hosts\Vsk.VooDoo.WebHost\Vsk.VooDoo.WebHost.csproj", "{3608805F-19C0-4B4F-B021-AFE4F8FBB0C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsk.VooDoo.WebHost", "src\hosts\Vsk.VooDoo.WebHost\Vsk.VooDoo.WebHost.csproj", "{3608805F-19C0-4B4F-B021-AFE4F8FBB0C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsk.VooDoo.Common", "src\modules\Vsk.VooDoo.Common\Vsk.VooDoo.Common\Vsk.VooDoo.Common.csproj", "{E35179F6-3E56-4B07-B6F9-0218A01C6436}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +151,10 @@ Global
 		{3608805F-19C0-4B4F-B021-AFE4F8FBB0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3608805F-19C0-4B4F-B021-AFE4F8FBB0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3608805F-19C0-4B4F-B021-AFE4F8FBB0C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35179F6-3E56-4B07-B6F9-0218A01C6436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35179F6-3E56-4B07-B6F9-0218A01C6436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35179F6-3E56-4B07-B6F9-0218A01C6436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35179F6-3E56-4B07-B6F9-0218A01C6436}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -179,6 +185,7 @@ Global
 		{5197A20B-2551-4FDA-B8A0-2F0CAD7D5437} = {99584CB4-7475-4E92-8ED1-28A16AAD2217}
 		{6A56F561-039F-42F1-B641-540484D26AAD} = {99584CB4-7475-4E92-8ED1-28A16AAD2217}
 		{3608805F-19C0-4B4F-B021-AFE4F8FBB0C1} = {99584CB4-7475-4E92-8ED1-28A16AAD2217}
+		{E35179F6-3E56-4B07-B6F9-0218A01C6436} = {7CD2E18F-7CF7-4601-8CC4-24858D3D565E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4266CD07-A144-4C7C-90CE-58CF1A666453}
