@@ -1,11 +1,11 @@
-﻿namespace Vsk.VooDoo.Adapters.Infrastructure.DAL.Extensions
+﻿namespace Vsk.VooDoo.Common.Extensions
 {
     using Npgsql;
-    using Vsk.VooDoo.Adapters.Infrastructure.DAL.DataBase;
+    using Vsk.VooDoo.Common.DAL.DataBase;
 
-    internal static class DataBaseSettingsExtensions
+    public static class DataBaseSettingsExtensions
     {
-        public static string GetConnectionString(this DataBaseSettings settings)
+        public static string GetConnectionString(this IDataBaseSettings settings)
         {
             var builder = new NpgsqlConnectionStringBuilder
             {

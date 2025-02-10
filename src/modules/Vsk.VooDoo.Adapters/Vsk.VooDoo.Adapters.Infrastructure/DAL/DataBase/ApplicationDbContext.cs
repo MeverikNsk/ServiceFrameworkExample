@@ -6,8 +6,8 @@
     using System.Threading;
     using System.Threading.Tasks;
     using Vsk.VooDoo.Adapters.Domain.Models;
-    using Vsk.VooDoo.Adapters.Domain.Repositoryes;
     using Vsk.VooDoo.Adapters.Infrastructure.DAL.EntityConfigurations;
+    using Vsk.VooDoo.Common.DAL.Repositories;
 
     internal class ApplicationDbContext : DbContext, IUnitOfWork
     {

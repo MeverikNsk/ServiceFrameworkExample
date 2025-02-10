@@ -1,6 +1,8 @@
-﻿namespace Vsk.VooDoo.Adapters.Infrastructure.DAL.DataBase
+﻿namespace Vsk.VooDoo.Adapters.Infrastructure.Settings
 {
-    internal class DataBaseSettings
+    using Vsk.VooDoo.Common.DAL.DataBase;
+
+    internal class DataBaseSettings : IDataBaseSettings
     {
         public string Host => "localhost";
 

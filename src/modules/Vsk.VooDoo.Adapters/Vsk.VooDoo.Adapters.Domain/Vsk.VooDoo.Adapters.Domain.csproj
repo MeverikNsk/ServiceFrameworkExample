@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Vsk.VooDoo.Common\Vsk.VooDoo.Common\Vsk.VooDoo.Common.csproj" />
     <ProjectReference Include="..\Vsk.VooDoo.Adapters.API\Vsk.VooDoo.Adapters.API.csproj" />
   </ItemGroup>
 

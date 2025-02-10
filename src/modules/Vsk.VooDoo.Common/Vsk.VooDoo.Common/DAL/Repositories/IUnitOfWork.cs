@@ -1,4 +1,4 @@
-﻿namespace Vsk.VooDoo.Adapters.Domain.Repositoryes
+﻿namespace Vsk.VooDoo.Common.DAL.Repositories
 {
     using System;
     using System.Threading.Tasks;

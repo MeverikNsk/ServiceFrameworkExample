@@ -1,18 +1,16 @@
 ﻿namespace Vsk.VooDoo.Adapters.Infrastructure.DAL.Repositories
 {
-    using Microsoft.EntityFrameworkCore;
     using System;
-    using System.Collections.Generic;
     using Vsk.VooDoo.Adapters.Domain.Models;
     using Vsk.VooDoo.Adapters.Domain.Repositoryes;
     using Vsk.VooDoo.Adapters.Infrastructure.DAL.DataBase;
     using Vsk.VooDoo.Common.DAL.Repositories;
 
-    internal class UserRepository : IUserRepository
+    internal class QueryableUserRepository : QueryableRepositoryBase<User>, IQueryableUserRepository
     {
         private readonly ApplicationDbContext _context;
 
-        public IUnitOfWork UnitOfWork
+        public override IUnitOfWork UnitOfWork
         {
             get
             {
@@ -20,14 +18,10 @@
             }
         }
 
-        public UserRepository(ApplicationDbContext context)
+        public QueryableUserRepository(ApplicationDbContext context)
+            : base(context)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
-        }
-
-        public IEnumerable<User> GetAll()
-        {
-            return _context.Users.Include(i => i.Roles).ToList();
         }
     }
 }

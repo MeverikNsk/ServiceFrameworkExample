@@ -6,7 +6,7 @@
     using Microsoft.Extensions.DependencyInjection;
     using System;
 
-    internal class DataContextAutomaticMigrationStartupFilter<T> : IStartupFilter
+    public class DataContextAutomaticMigrationStartupFilter<T> : IStartupFilter
         where T : DbContext
     {
         /// <inheritdoc />

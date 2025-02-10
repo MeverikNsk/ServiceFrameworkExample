@@ -2,7 +2,8 @@
 {
     using Microsoft.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore.Design;
-    using Vsk.VooDoo.Adapters.Infrastructure.DAL.Extensions;
+    using Vsk.VooDoo.Adapters.Infrastructure.Settings;
+    using Vsk.VooDoo.Common.Extensions;
 
     internal class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<ApplicationDbContext>
     {
