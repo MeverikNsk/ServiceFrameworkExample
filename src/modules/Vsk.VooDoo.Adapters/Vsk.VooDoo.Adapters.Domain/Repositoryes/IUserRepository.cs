@@ -5,5 +5,6 @@
 
     public interface IUserRepository : IRepository<User>
     {
+        IEnumerable<User> GetAll();
     }
 }
